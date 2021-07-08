@@ -1,0 +1,13 @@
+<div class="container-fluid text-center heightB">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav text-left">
+      <div routerLink='/admin/homepage' routerLinkActive='active' class="option-style"> Home </div>
+      <div routerLink='/admin/students-management/view-list' routerLinkActive='active' class="option-style">Students Management</div>
+      <div routerLink='/course/stream' routerLinkActive='active' class="option-style">Attendance</div>
+      <div routerLink='/course/attendance-report' routerLinkActive='active' class="option-style">Attendance Report</div>
+    </div>
+    <div class="col-sm-10 text-left"> 
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

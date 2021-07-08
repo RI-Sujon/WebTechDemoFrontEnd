@@ -1,0 +1,34 @@
+.topPartBackground{
+    background-color: olivedrab;
+    padding: 20px;
+}
+
+.middlePartBackGround{
+    background-repeat: round;
+    background-size: cover;
+    min-height: 1200px;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-navy{
+    color: navy;
+}
+
+.font-black{
+    color: black;
+}
+
+.font-large{
+    font-size: large;
+}
+
+.font-medium{
+    font-size: medium;
+}
+
+.font-small{
+    font-size: small;
+}

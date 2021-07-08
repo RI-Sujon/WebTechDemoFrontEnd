@@ -1,0 +1,46 @@
+<br>
+
+<div class="row mt-1">
+    <div class="col-md-12">
+        <form [formGroup]="service.formModel" autocomplete="off" (submit)="editStudentInfo()">
+            <div class="form-group required">
+                <label>Student Name</label>
+                <input class="form-control" formControlName="StudentName" name="studentName" [ngModel]="student.studentName">
+            </div>
+            <div class="form-group required">
+                <label>BSSE Roll</label>
+                <input class="form-control" formControlName="BSSEROLL" name="bsseRoll" [ngModel]="student.bsseroll">
+            </div>
+            <div class="form-group required">
+                <label>Session</label>
+                <input class="form-control" formControlName="Session" name="session" [ngModel]="student.session">
+            </div>
+            <div class="form-group required">
+                <label>BSSE Batch No</label>
+                <input class="form-control" formControlName="BatchNo" [ngModel]="student.batchNo">
+            </div>
+            <div class="form-group required">
+                <label>Hall Name</label>
+                <input class="form-control" formControlName="HallName" [ngModel]="student.hallName">
+            </div>
+            <div class="form-group required">
+                <label>Email</label>
+                <input class="form-control" formControlName="Email"  name="email" [ngModel]="student.email">
+            </div>
+            <div class="form-group required">
+                <label>Mobile Number</label>
+                <input class="form-control" formControlName="MobileNumber" name="mobileNumber" [ngModel]="student.mobileNumber">
+            </div>
+           
+            
+            <br>
+            <div class="form-row">
+                <div class="form-group col-md-6 offset-md-3">
+                    <button type="submit" class="btn btn-lg btn-block" >SUBMIT</button>
+                    <br>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</div>
